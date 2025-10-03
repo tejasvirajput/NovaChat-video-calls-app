@@ -1,7 +1,7 @@
 import { create } from "zustand";
 
 export const useThemeStore = create((set) => ({
-  theme: localStorage.getItem("NovaChat-Theme") || "synthwave",
+  theme: localStorage.getItem("NovaChat-Theme") || "coffee",
   setTheme: (theme) => {
     localStorage.setItem("NovaChat-Theme", theme);
     set({ theme });
