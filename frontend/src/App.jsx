@@ -28,7 +28,7 @@ const App = () => {
   }
 
   return (
-    <div className="h-screen" data-theme={theme}>
+    <div className="full-screen" data-theme={theme}>
       <Routes>
         <Route
           path="/"
